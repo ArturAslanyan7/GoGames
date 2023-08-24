@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/LogoHead.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Josefin+Sans:wght@600&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Josefin+Sans:wght@300;500;600&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <title>Gogames</title>
+</head>
+<body>
+
+
+    <header class="header">
+        <div class="container headerRow">
+            <a href="" class="header__Logo"><img src="Images/Logo.png" alt=""></a>
+
+            <ul class="nav__menu">
+                <li class="header__link-li">
+                    <a href="#" class="header__link-a">Home</a>
+                </li>
+
+                <li class="header__link-li">
+                    <a href="#" class="header__link-a">About Us</a>
+                </li>
+
+                <li class="header__link-li">
+                    <a href="#" class="header__link-a">Prices</a>
+                </li>
+
+                <li class="header__link-li">
+                    <a href="#" class="header__link-a">Rules</a>
+                </li>
+
+                <li class="header__link-li but">
+                    <a href="#" class="header__link-a">Get Started Now</a>
+                </li>
+
+                <p class="MobileMenuClose" onclick="CloseMobileMenu()"><img style="width: 80%; height:80%;" src="Images/Close.svg" alt=""></p>
+            </ul>
+
+            <div onclick="OpenMobileMenu()" class="mobileMenu"><img src="Images/list.svg" alt=""></div>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <div class="container Main-First-Info-Block-Contain">
+        <div class="Main__first-infoBlock">
+            <div class="first-infoBlock-Text">
+                <div class="first-infoBlock-Text-first">
+                    <p>Gaming Consoles</p>
+                    <img src="Images/Arrow.png" alt="">
+                </div>
+                    <p class="TryIt-P">Try It, Rent It,</p>
+                    <p class="Price-P">Save $50!</p>
+                    <p class="Text-P">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+                    <button class="first-infoBlock-Text-but but">Get Started Now</button>
+
+                    <img class="animationX" src="Images/AnimationX.png" alt="">
+            </div>
+
+            <div class="first-infoBlock-Imgs">
+                <img class="first-infoBlock-Imgs__First-Card" src="Images/card1.png" alt="">
+                <img class="first-infoBlock-Imgs__Second-Card" src="Images/card2.png" alt="">
+                <img class="GamerImg" src="Images/Gamer.png" alt="">
+                <img class="DOTSImg" src="Images/DOTS.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="VR__block">
+        <div class="container Main-VR__Info">
+
+            <div class="VR__Imgs">
+                <img class="VR-bg" src="Images/VR-bg.png" alt="">
+                <img class="VR-men" src="Images/VR-men.png" alt="">
+                <img class="VR-board" src="Images/VR-board.png" alt="">
+                <img class="VR-display" src="Images/VR-display.png" alt="">
+
+                <img class="VR-fullImg" src="Images/fullVRmen.png" alt="">
+            </div>
+
+            <div class="VR-infoBlock-Text">
+                <div class="first-infoBlock-Text-first">
+                    <p>About VR Glasses</p>
+                </div>
+                    <p class="TryIt-P2">The New VR Glasses</p>
+                    <p class="Price-P2">Series</p>
+                    <p class="Text-P">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+                    <button class="first-infoBlock-Text-but but">Get Started Now</button>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="Xbox__block">
+
+        <div class="container Xbox__Row">
+            <div class="Xbox__Info">
+                <div class="first-infoBlock-Text-first">
+                    <p>About XBOX, PS</p>
+                    <img src="Images/Arrow.png" alt="">
+                </div>
+                    <p class="TryIt-P3">The New Xbox, Ps</p>
+                    <p class="Price-P3">Series</p>
+                    <p class="Text-P">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters as opposed.</p>
+                    <button class="first-infoBlock-Text-but but">Get Started Now</button>
+
+            </div>
+
+            <div class="Xbox__Img">
+                <img src="Images/Xbox.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Choose__block">
+        <div class="container Choose__Row">
+
+        <p class="Choose__text1">Our Pricing</p>
+        <p class="Choose__text2">Choose Your Plan</p>
+
+        <div class="Choose__carts">
+
+            <div class="Basic">
+                <p class="cart__name">Basic</p>
+                <p class="cart__price"><span class="price__smollShrift">$</span>50.00 <span class="price__smollShrift"> / Per Hour</span></p>
+                <ul class="ul__cart">
+                    <li class="cart__proporty">10 users included</li>
+                    <li class="cart__proporty">2 GB of storage</li>
+                    <li class="cart__proporty">Email support</li>
+                    <li class="cart__proporty">Help center access</li>
+                    <li class="cart__proporty">10 users included</li>
+                </ul>
+
+                <button class="first-infoBlock-Text-but but">Selcet this plan</button>
+            </div>
+
+            <div class="Standart">
+                <img class="Standart-bg-img__Union" src="Images/Union.png" alt="">
+                <p class="cart__name__standart">Standart</p>
+                <p class="cart__price"><span class="price__smollShrift">$</span>95.00 <span class="price__smollShrift"> / Per Hour</span></p>
+                <ul class="ul__cart">
+                    <li class="cart__proporty_standart">10 users included</li>
+                    <li class="cart__proporty_standart">2 GB of storage</li>
+                    <li class="cart__proporty_standart">Email support</li>
+                    <li class="cart__proporty_standart">Help center access</li>
+                    <li class="cart__proporty_standart">10 users included</li>
+                </ul>
+
+                <button class="first-infoBlock-Text-but but">Selcet this plan</button>
+            </div>
+
+            <div class="Premium">
+                <p class="cart__name">Premium</p>
+                <p class="cart__price"><span class="price__smollShrift">$</span>120.00 <span class="price__smollShrift"> / Per Hour</span></p>
+                <ul class="ul__cart">
+                    <li class="cart__proporty">10 users included</li>
+                    <li class="cart__proporty">2 GB of storage</li>
+                    <li class="cart__proporty">Email support</li>
+                    <li class="cart__proporty">Help center access</li>
+                    <li class="cart__proporty">10 users included</li>
+                </ul>
+
+                <button class="first-infoBlock-Text-but but">Selcet this plan</button>
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footerRow">
+            <a href="" class="footer__Logo"><img src="Images/Logo.png" alt=""></a>
+            <a href="" class="footer__Text">Copyright © 2022 HEALAS.LT. All Rights Reserved.</a>
+            <ul class="footer__socHistoryes">
+                <li class="footer__icon"><img src="Images/facebook.svg" alt="" class="footer__iconImg"></li>
+
+                <li class="footer__icon"><img src="Images/twetter.svg" alt="" class="footer__iconImg"></li>
+
+                <li class="footer__icon"><img src="Images/instagram.svg" alt="" class="footer__iconImg"></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

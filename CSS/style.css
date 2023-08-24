@@ -1,0 +1,1046 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFE6D7;;
+    background-image: url(../Images/image\ 3.png);
+}
+
+.container{
+    width: 1160px;
+}
+
+.headerRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.header__link-a{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+
+.header__link-li:hover{
+    border-bottom: 2px solid #446381 ;
+}
+
+.MobileMenuClose{
+    display: none;
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: linear-gradient(137deg, #4499D9 0%, #7367BE 100%);
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    animation-name: but;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+}
+
+.but a{
+    color: #fff;
+}
+
+p{
+    cursor: pointer;
+}
+
+li{
+    cursor: pointer;
+}
+.but:hover{
+    animation-name: butHover;
+    animation-duration: 0.4s;
+    animation-iteration-count: 1;
+    background: linear-gradient(50deg, #4499D9 100%, #7367BE 100%);
+}
+
+@keyframes butHover{
+    0%{background: linear-gradient(140deg, #4499D9 0%, #7367BE 100%);}
+    20%{background: linear-gradient(140deg, #4499D9 20%, #7367BE 100%);}
+    40%{background: linear-gradient(140deg, #4499D9 40%, #7367BE 100%);}
+    60%{background: linear-gradient(140deg, #4499D9 60%, #7367BE 100%);}
+    80%{background: linear-gradient(140deg, #4499D9 80%, #7367BE 100%);}
+    100%{background: linear-gradient(140deg, #4499D9 100%, #7367BE 100%);}
+}
+
+@keyframes but{
+    100%{background: linear-gradient(140deg, #4499D9 0%, #7367BE 100%);}
+    80%{background: linear-gradient(140deg, #4499D9 20%, #7367BE 100%);}
+    60%{background: linear-gradient(140deg, #4499D9 40%, #7367BE 100%);}
+    40%{background: linear-gradient(140deg, #4499D9 60%, #7367BE 100%);}
+    20%{background: linear-gradient(140deg, #4499D9 80%, #7367BE 100%);}
+    0%{background: linear-gradient(140deg, #4499D9 100%, #7367BE 100%);}
+}
+
+.footerRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid #816F8C;
+}
+
+.footer__Text{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+
+.footer__socHistoryes{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    align-items: center;
+    width: 160px;
+}
+
+.footer__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FCD8CB;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Main__first-infoBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1160px;
+    height: 770px;
+}
+
+.first-infoBlock-Text{
+    position: relative;
+    width: 520px;
+    height: 540px;
+}
+.first-infoBlock-Imgs{
+    position: relative;
+    width: 740px;
+    height: 620px;
+}
+
+.first-infoBlock-Text-first{
+    display: flex;
+}
+
+.first-infoBlock-Text-first p{
+    font-family: Josefin Sans;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #446381;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.first-infoBlock-Text-first img{
+    width: 130px;
+    height: 30px;
+}
+
+.TryIt-P{
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 110.294% */
+}
+
+.Price-P{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 40px;
+
+}
+
+.TryIt-P2{
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 110.294% */
+}
+
+.Price-P2{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 40px;
+
+}
+
+.TryIt-P3{
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 110.294% */
+}
+
+.Price-P3{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.Text-P{
+    color: #826F8C;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px; /* 161.111% */
+    margin-bottom: 20px;
+}
+
+.first-infoBlock-Text-but {
+    border: none;
+    color: white;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.animationX{
+    position: absolute;
+    left: 250px;
+    top: 400px;
+    width: 120px;
+    height: 120px;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-delay: 0ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+    0%{transform: rotate(90deg);}
+    100%{transform: rotate(360deg)}
+    
+}
+
+.first-infoBlock-Imgs__Second-Card{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.first-infoBlock-Imgs__First-Card{
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    z-index: 2;
+}
+.GamerImg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.DOTSImg{
+    position: absolute;
+    width: 15%;
+    top: 40%;
+    left: 85%;
+}
+
+.VR__block{
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+    height: 800px;
+    background: #FFE6D7;
+}
+
+.Main-VR__Info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.VR-infoBlock-Text{
+    position: relative;
+    width: 690px;
+    height: 730px;
+    padding-left: 30px;
+}
+
+.VR__Imgs{
+    position: relative;
+    width: 550px;
+    height: 570px;
+    
+}
+
+.VR-men{
+    position: absolute;
+    left: 100px;
+    top: 170px;
+    z-index: 5;
+    
+}
+.VR-board{
+    position: absolute;
+    left: 115px;
+    top: 375px;
+}
+.VR-display{
+    position: absolute;
+    left: 232px;
+    top: 0;
+    animation-name: display;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.VR-fullImg{
+    display: none;
+}
+
+.Xbox__block{
+    display: flex;
+    justify-content: center;
+    height: 700px;
+    width:99vw;
+}
+
+.Xbox__Row{
+    display: flex;
+    padding-top: 115px;
+}
+
+.Xbox__Info{
+    width: 530px;
+    height: 450px;
+    padding-right: 50px;
+}
+
+.Xbox__Img{
+    position: relative;
+    width: 650px;
+    height: 570px;
+    padding-left: 30px;
+    animation-name: display;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.Choose__block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background: #FFE6D7;
+}
+.Choose__Row{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Choose__text1{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 104.348% */
+}
+.Choose__text2{
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px; /* 110.294% */
+}
+.Choose__carts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+}
+
+.Basic{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    width: 360px;
+    height: 560px;
+    background: #FBDACF;
+    border-radius: 20px;
+}
+.Standart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    position: relative;
+    width: 360px;
+    height: 600px;
+    border-radius: 20px;
+    background:linear-gradient(to bottom, #4C4AC2 , #7843BE  );
+}
+
+.Premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 50px;
+    width: 360px;
+    height: 560px;
+    background: #FBDACF;
+    border-radius: 20px;
+}
+.Standart-bg-img__Union{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.cart__proporty::before{
+    content: url("../Images/select.svg");
+    width: 5px;
+    height: 5px;
+    margin-right: 6px;
+}
+
+.cart__proporty_standart::before{
+    content: url("../Images/selectWhite.png");
+    width: 5px;
+    height: 5px;
+    margin-right: 6px;
+    color: white;
+}
+
+.cart__proporty{
+    color: #826F8C;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 138.889% */
+}
+
+.ul__cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.cart__name{
+    color: #446381;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart__price{
+    display: flex;
+    align-items: center;
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.price__smollShrift{
+    color: #EB8382;
+    font-family: Josefin Sans;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart__name__standart{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart__proporty_standart{
+    color: #FFF;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 138.889% */
+}
+
+@keyframes display{
+    0%{top:0;}
+    50%{top: -15px;}
+    100%{top: 0;}
+}
+
+
+@media (max-width:1180px){
+    body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container{
+        width: 95vw;
+    }
+
+    .Main-First-Info-Block-Contain{
+        display: flex;
+        justify-content: start;
+    }
+
+    .first-infoBlock-Text{
+        position: relative;
+        width: 40%;
+        height: 540px;
+    }
+    .first-infoBlock-Imgs{
+        position: relative;
+        width: 60%;
+        height: 620px;
+    }
+    .animationX{
+        display: none;
+    }
+
+    .TryIt-P{
+        font-size: 48px
+    }
+    .Price-P{
+        font-size: 38px;
+    }
+
+    .VR__Imgs{
+        position: relative;
+        width: 550px;
+        height: 570px;
+        
+    }
+
+    .VR-infoBlock-Text{
+        position: relative;
+        width: 550px;
+        height: 730px;
+        padding-left: 30px;
+    }
+    
+    .VR-men{
+        display: none;
+        
+    }
+    .VR-board{
+        display: none;
+    }
+    .VR-display{
+        display: none;
+    }
+    
+    .VR-fullImg{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 0;
+    }
+    .VR-bg{
+        display: none;
+    }
+    .TryIt-P3{
+        font-size: 40px;
+    }
+
+    .Xbox__block{
+        display: flex;
+        justify-content: center;
+        height: 700px;
+        width:99vw;
+    }
+    
+    .Xbox__Row{
+        width: 100%;
+    }
+    
+    .Xbox__Info{
+        width: 50%;
+    }
+    
+    .Xbox__Img{
+        width: 50%;
+        padding: 0;
+        animation: none;
+    }
+    .Xbox__Img img{
+        width: 100%;
+    }
+
+    .Basic{
+        width: 30%;
+        height: 560px;
+    }
+    .Standart{
+        width: 35%;
+        height: 600px;
+    }
+    
+    .Premium{
+        width: 30%;
+        height: 560px;
+    }
+
+}
+
+
+@media (max-width:1024px){
+    .nav__menu{
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 50%;
+        left: 50%;
+        height: 100%;
+        top: 0;
+        font-size: 40px;
+        background: #fff;
+        display: none;
+        animation-name: mobileCome;
+        animation-duration: 0.2s;
+        z-index: 100;
+    }
+
+
+    @keyframes mobileCome{
+        0%{left: 80%;width: 20%;border-radius: 20%;}
+        100%{left: 50%;width: 50%;border-radius: 0;}
+    }
+
+    main{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .MobileMenuClose{
+        display: block;
+        position: absolute;
+        width: 15%;
+        height: 5%;
+        left: 80%;
+        top: 2%;
+    }
+    
+
+    .but{
+        margin-top: 20px;
+    }
+
+    .mobileMenu{
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+    .mobileMenu img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .footerRow{
+        display: flex;
+        justify-content:center ;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .footer__Text{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 0;
+        font-size: 1.5vmax;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .first-infoBlock-Text{
+        position: relative;
+        width: 50%;
+        height: 540px;
+    }
+    .first-infoBlock-Imgs{
+        position: relative;
+        width: 50%;
+        height: 540px;
+    }
+
+    .GamerImg{
+        width: 85%;
+    }
+
+    .first-infoBlock-Imgs__First-Card{
+        width: 30%;
+        top: 70%;
+    }
+    .first-infoBlock-Imgs__Second-Card{
+        width: 30%;
+    }
+    .Main__first-infoBlock{
+        height: auto;
+    }
+
+    .VR-infoBlock-Text{
+        position: relative;
+        width: 550px;
+        height: 730px;
+        padding-left: 30px;
+    }
+
+    .VR__Imgs{
+        position: relative;
+        width: 450px;
+        height: 450px;
+    }
+    
+    .VR-men{
+        display: none;
+        
+    }
+    .VR-board{
+        display: none;
+    }
+    .VR-display{
+        display: none;
+    }
+    .VR-bg{
+        display: none;
+    }
+    
+    .VR-fullImg{
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .cart__name__standart{
+        font-size: 20px;
+    }
+    .cart__price{
+        font-size: 20px;
+    }
+    .Standart{
+        align-items: center;
+        padding: 0;
+    }
+    .Premium{
+        align-items: center;
+        padding: 0;
+    }
+    .Basic{
+        align-items: center;
+        padding: 0;
+    }
+
+}
+
+
+
+@media (max-width:768px){
+    .nav__menu{
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-size: 40px;
+        background: #fff;
+        display: none;
+        animation-name: mobileCome;
+        animation-duration: 0.2s;
+    }
+
+    @keyframes mobileCome{
+        0%{left: 80%;width: 20%;border-radius: 20%;}
+        100%{left: 0;width: 100%;border-radius: 0;}
+    }
+
+    .Main__first-infoBlock{
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .first-infoBlock-Text{
+        width: 100%;
+        margin-top: 15%;
+    }
+    .first-infoBlock-Imgs{
+        width: 75%;
+        height: 300px;
+    }
+    .first-infoBlock-Imgs__First-Card{
+        top: 50%;
+    }
+    .DOTSImg{
+        left: 93%;
+    }
+    .VR-infoBlock-Text{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .VR-fullImg{
+        width: 100%;
+    }
+
+    .VR__block{
+        padding: 0;
+        height: auto;
+        display:flex ;
+    }
+
+    .Main-VR__Info{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TryIt-P3{
+        font-size: 40px;
+    }
+
+    .Xbox__block{
+        display: flex;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        width:99vw;
+    }
+    
+    .Xbox__Row{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0;
+        height: auto;
+        width: 100%;
+    }
+    
+    .Xbox__Info{
+        width: 100%;
+        height: auto;
+    }
+    
+    .Xbox__Img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        animation: none;
+    }
+    .Xbox__Img img{
+        width: 450px;
+        height: 450px;
+    }
+    .Xbox__Info{
+        padding-left: 30px;
+    }
+
+    .Choose__block{
+        height: auto;
+    }
+
+    .Main__first-infoBlock{
+        padding-left: 30px;
+    }
+
+    .Choose__carts{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        height: 1000px;
+        margin-top: 30px;
+    }
+    .Premium{
+        width: 45%;
+        height: 450px;
+        margin-right: 55%;
+    }
+    .Basic{
+        width: 45%;
+        height: 450px;
+        margin-bottom: 20px;
+    }
+    .Standart{
+        width: 45%;
+        height: 450px;
+    }
+    .Choose__text1{
+        margin-top: 30px;
+    }
+
+    .Choose__text2{
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width:480px){
+    .footer__Logo,
+   .header__Logo{
+        width: 50%;
+   } 
+   .footer__Logo img,
+   .header__Logo img{
+    width: 100%;
+    } 
+    .GamerImg{
+        width: 100%;
+    }
+    .Xbox__Img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        animation: none;
+    }
+    .Xbox__Img img{
+        width: 80%;
+        height: 50%;
+    }
+    .Xbox__Row{
+        width: 100%;
+    }
+
+    .VR__Imgs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+    }
+
+    .VR-fullImg{
+        width: 100%;
+        margin-top: 25%;
+    }
+
+    .Xbox__Info{
+        padding-left: 30px;
+    }
+
+    .Main__first-infoBlock{
+        padding-left: 30px;
+    }
+
+    .Choose__carts{
+        height: auto;
+    }
+
+  .Choose__Row{
+    display: flex;
+    flex-direction: column;
+  }  
+
+  .Premium{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    margin-right: 0;
+}
+.Basic{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+.Standart{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.Choose__text2{
+    font-size: 25px;
+}
+}
